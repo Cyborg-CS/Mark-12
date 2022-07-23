@@ -19,7 +19,7 @@ function checkTriangle(){
     resultBox.innerHTML ="Way to go ! Your angles are making a Triangle.";
    }else{
     console.log("Oops ! Looks like you can't form a Triangle with is angles.")
-    resultBox.innerHTML ="Oops ! Looks like you can't form a Triangle with is angles."
+    resultBox.innerHTML ="Oops ! Looks like you can't form a Triangle with this angles."
    }
 }
 
