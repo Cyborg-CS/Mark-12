@@ -5,30 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/styles/quizStyle.css" />
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
     <header>
       <nav class="navigation containers">
-        <h1 class="nav-brand">devMainakDas</h1>
-
-        <ul class="list-non-bullet nav-pills">
-          <li class="list-inline-item link-active">
-            <a class="link" href="index.html">home</a>
-          </li>
-
-          <li class="list-inline-item">
-            <a class="link" href="projects.html">projects</a>
-          </li>
-
-          <li class="list-inline-item">
-            <a class="link" href="blogs.html">blogs</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <form class="quiz-section">
+          <h1 class="nav-brand">KnowTriangle's</h1>
+      
+          <ul class="list-non-bullet nav-pills">
+            <li class="list-inline-item ">
+      
+              <a class="link" href="/index.html">isTriangle?</a>
+      
+            </li>
+      
+            <li class="list-inline-item link-active">
+              <a class="link" href="quiz.html">Quiz</a>
+            </li>
+      
+            <li class="list-inline-item">
+              <a class="link" href="hypotenuseDocument.html">hypotenuse</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="link" href="TriangleArea.html">triangleArea</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+  
+    <main class="quiz-section">
+      <h1>Quiz on triangles</h1>
+      <h3>For each correct answer you will get 1 point</h3>
+      <form class="quiz-form">
         <div class="quiz-container">
           <p>
             What is the third angle for the triangle where angle1 = 45° and
@@ -161,9 +170,9 @@
                 <input type="radio" name="question10" value="45°" />
                 45°
               </label>
-        </div>
+        </div>  
       </form>
-      <button class="check-btn">Submit</button>
+      <button id="check-btn" type="submit" >Submit</button>
       <div class="output">
         <h2 id="output-tag"></h2>
       </div>

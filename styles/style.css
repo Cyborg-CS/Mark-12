@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Dancing+Script:wght@700&family=Lato&family=Macondo&family=Pacifico&display=swap');
+
 *{
     margin: 0px;
+    font-family: 'Lato', sans-serif;
 }
 
 :root {
@@ -11,6 +14,13 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+/** links **/
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
 
 /** list **/
 
@@ -25,18 +35,23 @@
 
 /**navigation**/
 .navigation {
+    margin: auto;
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
-    /* border-bottom-left-radius: 1rem; */
+    padding: 2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    max-width: 90%;
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 30px;
 }
 
 .navigation .link {
     color: white;
+    
 }
 
 .navigation .nav-pills {
@@ -45,4 +60,60 @@
 
 .navigation .link-active {
     font-weight: bold;
+}
+
+
+/**main**/
+h1{
+    font-size: 40px;
+}
+
+.main-container{
+    margin: 2rem auto;
+    text-align: center;
+    width: 90%;
+}
+
+.main-container h1{
+ margin: 1rem;
+}
+
+/**input**/
+.input-lable{
+    font-weight: bold;
+    font-size: larger;
+    color: var(--primary-color);
+    padding: 1rem;
+}
+
+.input-lable p{
+    padding: 1rem;
+}
+
+
+  .input-angles{
+    width: 10cm;
+    height: 1cm;
+    border-color: var(--primary-color) ;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+/* button */
+#check-btn{
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    border-color: 1px solid var(--primary-color);
+    color: white;
+    margin-top: 2rem;
+    font-size: larger; 
+}
+
+/* output */
+.output{
+    padding: 3rem;
+    font-size: larger;
 }

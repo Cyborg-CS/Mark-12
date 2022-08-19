@@ -1,7 +1,7 @@
 const firstSide = document.querySelector("#side-one");
 const secondSide = document.querySelector("#side-two");
 const thirdSide = document.querySelector("#side-three");
-const calculateBtn = document.querySelector("#calculate-btn");
+const calculateBtn = document.querySelector("#check-btn");
 const outputBox = document.querySelector("#output-tag");
 
 function calculateArea(e) {

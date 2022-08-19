@@ -1,5 +1,5 @@
-const questionsForm = document.querySelector(".quiz-section");
-const submitBtn = document.querySelector(".check-btn");
+const questionsForm = document.querySelector(".quiz-form");
+const submitBtn = document.querySelector("#check-btn");
 const outputBox = document.querySelector("#output-tag");
 
 const answers = ["90°",
@@ -14,7 +14,8 @@ const answers = ["90°",
 "45°"];
 
 
-function calculateFinalScore(){
+function calculateFinalScore(e){
+    e.preventDefault();
     const formValues = new FormData(questionsForm);
     let score = 0, index= 0;
     for(let values of formValues.values()){
